@@ -29,12 +29,14 @@ def main():
     parser.add_argument(
         "--data_root",
         type=str,
+        default="dataset",
         required=True,
         help="dataset root path.",
     )
     parser.add_argument(
         "--config",
         type=str,
+        default="configs/config.json",
         required=True,
         help="configuration file path.",
     )
